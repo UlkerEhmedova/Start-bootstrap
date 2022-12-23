@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/*Navbar*/
+.nav-link {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: yellow;
+}
+
+.navbar-brand img:hover {
+  filter: drop-shadow(8px 8px 4px #faea10);
+}
+
+/*Header*/
+.masthead {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+  min-height: 100vh;
+}
+
+.containerHeader {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  padding-top: 20rem;
+  padding-left: 8px;
+}
+
+.containerHeader h2 {
+  font-style: italic;
+  font-size: 32px;
+}
+
+.btns {
+  background-color: rgb(224, 224, 13);
+  color: white;
+  font-size: 20px;
+  margin-top: 5rem;
+  padding: 1rem;
+  margin-bottom: 20px;
+}
+
+/*Service*/
+.section {
+  min-height: 100vh;
+  padding-top: 90px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.flex-containercard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-container>.glasses {
+  margin: 10px 30px 20px 10px;
+  padding: 10px;
+  /* -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background: #D1D8EC;
+  -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;*/
+  box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+}
+
+.flex-container>div>span {
+  margin-bottom: 25px;
+}
+
+/* Portfolio */
+.bg {
+  background-color: rgba(239, 233, 233, 0.779);
+}
+
+.card {
+  max-width: 26%;
+  max-height: 25%;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/*Image hover*/
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: rgb(253, 188, 67);
+}
+
+.card:hover .overlay {
+  opacity: 0.9;
+} */
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-plus:hover {
+  color: white;
+}
+
+/*Finish image hover*/
+/*Modal Start*/
+.imgs {
+  width: 50%;
+  height: 30%;
+  margin-left: 25%;
+}
+
+.pp {
+  padding-top: 5%;
+  min-width: 60%;
+}
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  min-height: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: #f2eaea;
+  float: right;
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modalImg{
+  max-width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.modalButton{
+  max-width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: white;
+}
+/*Modal Finish*/
+/*Team start*/
+.Teamcard {
+  border: 10px solid rgb(229, 227, 227);
+  border-radius: 50%;
+  width: 80%;
+  height: 70%;
+}
+
+.socials {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.flexcard {
+  max-width: 20%;
+  max-height: 10%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+}
+/*Team finish*/
+/* Contact start */
+.bgimg{
+  background: linear-gradient(123deg, #461B93 0%, #461B93 40%, #6A3CBC calc(40% + 1px), #6A3CBC 60%, #8253D7 calc(60% + 1px), #8253D7 70%, #F78F1E calc(70% + 1px), #F78F1E 100%)
+}
+.buttonSubmit{
+  width: 30%;
+  margin-left: 35%;
+}
+.form-group label{
+  color: white;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.btnsubmit{
+  position: relative;
+  background-color: #faea10;
+  margin-top: 4%;
+  margin-left: 32%;
+  width: 45%;
+  height: 35%;
+}
+/* Contact finish*/
+/*Media queries*/
+@media (max-width: 912px) {
+  .flex-container {
+    flex-direction: column;
+    padding-top: 32px;
+  }
+
+  .flex-containercard {
+    max-width: 500px;
+    max-height: 50%;
+  }
+  .modal-content {
+    min-width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+    padding-top: 32px;
+  }
+
+  /*Portfolio*/
+  .container-fluid .flex-containercard>div {
+    min-width: 80%;
+  }
+
+  .modal-content {
+    min-width: 80%;
+  }
+}
